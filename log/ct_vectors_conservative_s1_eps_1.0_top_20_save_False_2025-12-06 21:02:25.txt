@@ -1,0 +1,2 @@
+INFO -> 2025-12-06 21:02:25,765: sst2, args: Namespace(log_path='./log', dataset='sst2', save_path='./trained_model', model_type='bert-base-uncased', epochs=3, num_labels=2, lr=2e-05, max_len=128, batch_size=64, use_cuda=True, num_workers=32, seed=42, log_steps=50, eval_steps=50, eps=1.0, top_k=20, embedding_type='ct_vectors', mapping_strategy='conservative', privatization_strategy='s1', save_stop_words=False)
+INFO -> 2025-12-06 21:02:59,245: train_data:67349,dev_data:872,test_data:1821

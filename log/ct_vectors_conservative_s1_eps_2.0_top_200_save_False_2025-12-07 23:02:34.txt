@@ -1,0 +1,149 @@
+INFO -> 2025-12-07 23:02:34,941: sst2, args: Namespace(log_path='./log', dataset='sst2', save_path='./trained_model', model_type='bert-base-uncased', epochs=3, num_labels=2, lr=2e-05, max_len=128, batch_size=64, use_cuda=True, num_workers=32, seed=42, log_steps=50, eval_steps=50, eps=2.0, top_k=200, embedding_type='ct_vectors', mapping_strategy='conservative', privatization_strategy='s1', save_stop_words=False)
+INFO -> 2025-12-07 23:04:03,290: train_data:67349, dev_data:872
+INFO -> 2025-12-07 23:04:09,293: Init_val_acc: 0.519495
+INFO -> 2025-12-07 23:04:09,293: Training model for 3 epochs..
+INFO -> 2025-12-07 23:04:09,613: [Train] epoch:1/3, step: 0/3159, step_loss:0.6927
+INFO -> 2025-12-07 23:04:52,958: [Evaluate] epoch:1/3, step: 50/3159, val_acc:0.62041
+INFO -> 2025-12-07 23:04:53,376: [Evaluate] best accuracy performance has been updated: 0.51950 -> 0.62041
+INFO -> 2025-12-07 23:04:53,988: [Train] epoch:1/3, step: 50/3159, step_loss:0.6091
+INFO -> 2025-12-07 23:06:00,142: [Evaluate] epoch:1/3, step: 100/3159, val_acc:0.64908
+INFO -> 2025-12-07 23:06:00,527: [Evaluate] best accuracy performance has been updated: 0.62041 -> 0.64908
+INFO -> 2025-12-07 23:06:01,005: [Train] epoch:1/3, step: 100/3159, step_loss:0.5866
+INFO -> 2025-12-07 23:07:09,397: [Evaluate] epoch:1/3, step: 150/3159, val_acc:0.67431
+INFO -> 2025-12-07 23:07:09,794: [Evaluate] best accuracy performance has been updated: 0.64908 -> 0.67431
+INFO -> 2025-12-07 23:07:10,288: [Train] epoch:1/3, step: 150/3159, step_loss:0.7212
+INFO -> 2025-12-07 23:08:13,652: [Evaluate] epoch:1/3, step: 200/3159, val_acc:0.68119
+INFO -> 2025-12-07 23:08:14,017: [Evaluate] best accuracy performance has been updated: 0.67431 -> 0.68119
+INFO -> 2025-12-07 23:08:14,459: [Train] epoch:1/3, step: 200/3159, step_loss:0.5166
+INFO -> 2025-12-07 23:09:17,461: [Evaluate] epoch:1/3, step: 250/3159, val_acc:0.67431
+INFO -> 2025-12-07 23:09:18,704: [Train] epoch:1/3, step: 250/3159, step_loss:0.6589
+INFO -> 2025-12-07 23:10:21,332: [Evaluate] epoch:1/3, step: 300/3159, val_acc:0.66284
+INFO -> 2025-12-07 23:10:22,257: [Train] epoch:1/3, step: 300/3159, step_loss:0.5675
+INFO -> 2025-12-07 23:11:25,903: [Evaluate] epoch:1/3, step: 350/3159, val_acc:0.67546
+INFO -> 2025-12-07 23:11:26,676: [Train] epoch:1/3, step: 350/3159, step_loss:0.6630
+INFO -> 2025-12-07 23:12:31,162: [Evaluate] epoch:1/3, step: 400/3159, val_acc:0.70528
+INFO -> 2025-12-07 23:12:31,638: [Evaluate] best accuracy performance has been updated: 0.68119 -> 0.70528
+INFO -> 2025-12-07 23:12:32,094: [Train] epoch:1/3, step: 400/3159, step_loss:0.6442
+INFO -> 2025-12-07 23:13:35,168: [Evaluate] epoch:1/3, step: 450/3159, val_acc:0.71789
+INFO -> 2025-12-07 23:13:35,553: [Evaluate] best accuracy performance has been updated: 0.70528 -> 0.71789
+INFO -> 2025-12-07 23:13:36,028: [Train] epoch:1/3, step: 450/3159, step_loss:0.6283
+INFO -> 2025-12-07 23:14:37,260: [Evaluate] epoch:1/3, step: 500/3159, val_acc:0.70298
+INFO -> 2025-12-07 23:14:38,260: [Train] epoch:1/3, step: 500/3159, step_loss:0.5686
+INFO -> 2025-12-07 23:15:40,802: [Evaluate] epoch:1/3, step: 550/3159, val_acc:0.69954
+INFO -> 2025-12-07 23:15:41,538: [Train] epoch:1/3, step: 550/3159, step_loss:0.6371
+INFO -> 2025-12-07 23:16:45,376: [Evaluate] epoch:1/3, step: 600/3159, val_acc:0.71445
+INFO -> 2025-12-07 23:16:46,198: [Train] epoch:1/3, step: 600/3159, step_loss:0.4361
+INFO -> 2025-12-07 23:17:50,212: [Evaluate] epoch:1/3, step: 650/3159, val_acc:0.72477
+INFO -> 2025-12-07 23:17:50,543: [Evaluate] best accuracy performance has been updated: 0.71789 -> 0.72477
+INFO -> 2025-12-07 23:17:50,940: [Train] epoch:1/3, step: 650/3159, step_loss:0.4923
+INFO -> 2025-12-07 23:18:54,442: [Evaluate] epoch:1/3, step: 700/3159, val_acc:0.71789
+INFO -> 2025-12-07 23:18:55,248: [Train] epoch:1/3, step: 700/3159, step_loss:0.5813
+INFO -> 2025-12-07 23:19:56,065: [Evaluate] epoch:1/3, step: 750/3159, val_acc:0.72362
+INFO -> 2025-12-07 23:19:56,580: [Train] epoch:1/3, step: 750/3159, step_loss:0.5849
+INFO -> 2025-12-07 23:21:01,310: [Evaluate] epoch:1/3, step: 800/3159, val_acc:0.72936
+INFO -> 2025-12-07 23:21:01,647: [Evaluate] best accuracy performance has been updated: 0.72477 -> 0.72936
+INFO -> 2025-12-07 23:21:02,058: [Train] epoch:1/3, step: 800/3159, step_loss:0.6284
+INFO -> 2025-12-07 23:22:04,360: [Evaluate] epoch:1/3, step: 850/3159, val_acc:0.72362
+INFO -> 2025-12-07 23:22:04,999: [Train] epoch:1/3, step: 850/3159, step_loss:0.4075
+INFO -> 2025-12-07 23:23:09,942: [Evaluate] epoch:1/3, step: 900/3159, val_acc:0.72821
+INFO -> 2025-12-07 23:23:10,644: [Train] epoch:1/3, step: 900/3159, step_loss:0.5723
+INFO -> 2025-12-07 23:24:11,764: [Evaluate] epoch:1/3, step: 950/3159, val_acc:0.70642
+INFO -> 2025-12-07 23:24:12,574: [Train] epoch:1/3, step: 950/3159, step_loss:0.5774
+INFO -> 2025-12-07 23:25:17,638: [Evaluate] epoch:1/3, step: 1000/3159, val_acc:0.71904
+INFO -> 2025-12-07 23:25:18,294: [Train] epoch:1/3, step: 1000/3159, step_loss:0.5570
+INFO -> 2025-12-07 23:26:20,393: [Evaluate] epoch:1/3, step: 1050/3159, val_acc:0.71560
+INFO -> 2025-12-07 23:26:21,090: [Train] epoch:1/3, step: 1050/3159, step_loss:0.6076
+INFO -> 2025-12-07 23:26:28,229: [Epoch 1] train_epoch_loss = 0.0090,  ---- val_acc = 0.7190,  [1334.4s]
+INFO -> 2025-12-07 23:27:10,239: [Evaluate] epoch:2/3, step: 1100/3159, val_acc:0.73050
+INFO -> 2025-12-07 23:27:10,691: [Evaluate] best accuracy performance has been updated: 0.72936 -> 0.73050
+INFO -> 2025-12-07 23:27:11,149: [Train] epoch:2/3, step: 1100/3159, step_loss:0.5925
+INFO -> 2025-12-07 23:28:13,708: [Evaluate] epoch:2/3, step: 1150/3159, val_acc:0.73739
+INFO -> 2025-12-07 23:28:14,091: [Evaluate] best accuracy performance has been updated: 0.73050 -> 0.73739
+INFO -> 2025-12-07 23:28:14,554: [Train] epoch:2/3, step: 1150/3159, step_loss:0.5010
+INFO -> 2025-12-07 23:29:17,656: [Evaluate] epoch:2/3, step: 1200/3159, val_acc:0.72477
+INFO -> 2025-12-07 23:29:19,028: [Train] epoch:2/3, step: 1200/3159, step_loss:0.4300
+INFO -> 2025-12-07 23:30:23,631: [Evaluate] epoch:2/3, step: 1250/3159, val_acc:0.72477
+INFO -> 2025-12-07 23:30:24,227: [Train] epoch:2/3, step: 1250/3159, step_loss:0.4781
+INFO -> 2025-12-07 23:31:27,617: [Evaluate] epoch:2/3, step: 1300/3159, val_acc:0.72936
+INFO -> 2025-12-07 23:31:28,344: [Train] epoch:2/3, step: 1300/3159, step_loss:0.6307
+INFO -> 2025-12-07 23:32:32,602: [Evaluate] epoch:2/3, step: 1350/3159, val_acc:0.72821
+INFO -> 2025-12-07 23:32:33,118: [Train] epoch:2/3, step: 1350/3159, step_loss:0.4926
+INFO -> 2025-12-07 23:33:33,143: [Evaluate] epoch:2/3, step: 1400/3159, val_acc:0.74083
+INFO -> 2025-12-07 23:33:33,547: [Evaluate] best accuracy performance has been updated: 0.73739 -> 0.74083
+INFO -> 2025-12-07 23:33:33,961: [Train] epoch:2/3, step: 1400/3159, step_loss:0.4163
+INFO -> 2025-12-07 23:34:37,709: [Evaluate] epoch:2/3, step: 1450/3159, val_acc:0.72018
+INFO -> 2025-12-07 23:34:38,380: [Train] epoch:2/3, step: 1450/3159, step_loss:0.4603
+INFO -> 2025-12-07 23:35:46,073: [Evaluate] epoch:2/3, step: 1500/3159, val_acc:0.70872
+INFO -> 2025-12-07 23:35:47,124: [Train] epoch:2/3, step: 1500/3159, step_loss:0.4903
+INFO -> 2025-12-07 23:40:17,076: [Evaluate] epoch:2/3, step: 1550/3159, val_acc:0.73165
+INFO -> 2025-12-07 23:40:18,590: [Train] epoch:2/3, step: 1550/3159, step_loss:0.5056
+INFO -> 2025-12-07 23:41:41,515: [Evaluate] epoch:2/3, step: 1600/3159, val_acc:0.73394
+INFO -> 2025-12-07 23:41:41,986: [Train] epoch:2/3, step: 1600/3159, step_loss:0.4017
+INFO -> 2025-12-07 23:42:55,917: [Evaluate] epoch:2/3, step: 1650/3159, val_acc:0.72248
+INFO -> 2025-12-07 23:42:56,385: [Train] epoch:2/3, step: 1650/3159, step_loss:0.5521
+INFO -> 2025-12-07 23:44:07,817: [Evaluate] epoch:2/3, step: 1700/3159, val_acc:0.72018
+INFO -> 2025-12-07 23:44:08,436: [Train] epoch:2/3, step: 1700/3159, step_loss:0.4469
+INFO -> 2025-12-07 23:45:15,753: [Evaluate] epoch:2/3, step: 1750/3159, val_acc:0.75000
+INFO -> 2025-12-07 23:45:17,217: [Evaluate] best accuracy performance has been updated: 0.74083 -> 0.75000
+INFO -> 2025-12-07 23:45:17,839: [Train] epoch:2/3, step: 1750/3159, step_loss:0.3704
+INFO -> 2025-12-07 23:46:24,969: [Evaluate] epoch:2/3, step: 1800/3159, val_acc:0.73165
+INFO -> 2025-12-07 23:46:25,430: [Train] epoch:2/3, step: 1800/3159, step_loss:0.4992
+INFO -> 2025-12-07 23:47:32,529: [Evaluate] epoch:2/3, step: 1850/3159, val_acc:0.74427
+INFO -> 2025-12-07 23:47:32,976: [Train] epoch:2/3, step: 1850/3159, step_loss:0.3760
+INFO -> 2025-12-07 23:48:39,954: [Evaluate] epoch:2/3, step: 1900/3159, val_acc:0.73968
+INFO -> 2025-12-07 23:48:40,523: [Train] epoch:2/3, step: 1900/3159, step_loss:0.4632
+INFO -> 2025-12-07 23:49:47,273: [Evaluate] epoch:2/3, step: 1950/3159, val_acc:0.72936
+INFO -> 2025-12-07 23:49:47,749: [Train] epoch:2/3, step: 1950/3159, step_loss:0.4144
+INFO -> 2025-12-07 23:50:54,525: [Evaluate] epoch:2/3, step: 2000/3159, val_acc:0.74083
+INFO -> 2025-12-07 23:50:55,160: [Train] epoch:2/3, step: 2000/3159, step_loss:0.4824
+INFO -> 2025-12-07 23:52:02,485: [Evaluate] epoch:2/3, step: 2050/3159, val_acc:0.73394
+INFO -> 2025-12-07 23:52:02,987: [Train] epoch:2/3, step: 2050/3159, step_loss:0.4570
+INFO -> 2025-12-07 23:53:07,583: [Evaluate] epoch:2/3, step: 2100/3159, val_acc:0.73739
+INFO -> 2025-12-07 23:53:08,065: [Train] epoch:2/3, step: 2100/3159, step_loss:0.5629
+INFO -> 2025-12-07 23:53:20,649: [Epoch 2] train_epoch_loss = 0.0074,  ---- val_acc = 0.7443,  [1605.3s]
+INFO -> 2025-12-07 23:54:02,296: [Evaluate] epoch:3/3, step: 2150/3159, val_acc:0.73509
+INFO -> 2025-12-07 23:54:02,758: [Train] epoch:3/3, step: 2150/3159, step_loss:0.3382
+INFO -> 2025-12-07 23:55:09,404: [Evaluate] epoch:3/3, step: 2200/3159, val_acc:0.73050
+INFO -> 2025-12-07 23:55:09,873: [Train] epoch:3/3, step: 2200/3159, step_loss:0.3726
+INFO -> 2025-12-07 23:56:13,977: [Evaluate] epoch:3/3, step: 2250/3159, val_acc:0.72936
+INFO -> 2025-12-07 23:56:16,909: [Train] epoch:3/3, step: 2250/3159, step_loss:0.2827
+INFO -> 2025-12-07 23:57:20,906: [Evaluate] epoch:3/3, step: 2300/3159, val_acc:0.72592
+INFO -> 2025-12-07 23:57:21,359: [Train] epoch:3/3, step: 2300/3159, step_loss:0.2765
+INFO -> 2025-12-07 23:58:28,382: [Evaluate] epoch:3/3, step: 2350/3159, val_acc:0.72706
+INFO -> 2025-12-07 23:58:28,840: [Train] epoch:3/3, step: 2350/3159, step_loss:0.4947
+INFO -> 2025-12-07 23:59:35,490: [Evaluate] epoch:3/3, step: 2400/3159, val_acc:0.73968
+INFO -> 2025-12-07 23:59:35,943: [Train] epoch:3/3, step: 2400/3159, step_loss:0.3599
+INFO -> 2025-12-08 00:00:42,964: [Evaluate] epoch:3/3, step: 2450/3159, val_acc:0.72936
+INFO -> 2025-12-08 00:00:43,414: [Train] epoch:3/3, step: 2450/3159, step_loss:0.4561
+INFO -> 2025-12-08 00:01:52,351: [Evaluate] epoch:3/3, step: 2500/3159, val_acc:0.72592
+INFO -> 2025-12-08 00:01:52,802: [Train] epoch:3/3, step: 2500/3159, step_loss:0.4449
+INFO -> 2025-12-08 00:02:59,636: [Evaluate] epoch:3/3, step: 2550/3159, val_acc:0.71674
+INFO -> 2025-12-08 00:03:00,087: [Train] epoch:3/3, step: 2550/3159, step_loss:0.3777
+INFO -> 2025-12-08 00:04:06,790: [Evaluate] epoch:3/3, step: 2600/3159, val_acc:0.72477
+INFO -> 2025-12-08 00:04:07,274: [Train] epoch:3/3, step: 2600/3159, step_loss:0.3148
+INFO -> 2025-12-08 00:05:13,770: [Evaluate] epoch:3/3, step: 2650/3159, val_acc:0.73165
+INFO -> 2025-12-08 00:05:14,237: [Train] epoch:3/3, step: 2650/3159, step_loss:0.3400
+INFO -> 2025-12-08 00:06:22,455: [Evaluate] epoch:3/3, step: 2700/3159, val_acc:0.73280
+INFO -> 2025-12-08 00:06:22,950: [Train] epoch:3/3, step: 2700/3159, step_loss:0.2791
+INFO -> 2025-12-08 00:07:29,583: [Evaluate] epoch:3/3, step: 2750/3159, val_acc:0.73050
+INFO -> 2025-12-08 00:07:30,043: [Train] epoch:3/3, step: 2750/3159, step_loss:0.4630
+INFO -> 2025-12-08 00:08:35,615: [Evaluate] epoch:3/3, step: 2800/3159, val_acc:0.73050
+INFO -> 2025-12-08 00:08:36,056: [Train] epoch:3/3, step: 2800/3159, step_loss:0.4116
+INFO -> 2025-12-08 00:09:43,116: [Evaluate] epoch:3/3, step: 2850/3159, val_acc:0.73853
+INFO -> 2025-12-08 00:09:43,557: [Train] epoch:3/3, step: 2850/3159, step_loss:0.3519
+INFO -> 2025-12-08 00:10:50,389: [Evaluate] epoch:3/3, step: 2900/3159, val_acc:0.73739
+INFO -> 2025-12-08 00:10:50,854: [Train] epoch:3/3, step: 2900/3159, step_loss:0.5167
+INFO -> 2025-12-08 00:11:58,410: [Evaluate] epoch:3/3, step: 2950/3159, val_acc:0.73509
+INFO -> 2025-12-08 00:11:58,871: [Train] epoch:3/3, step: 2950/3159, step_loss:0.5013
+INFO -> 2025-12-08 00:13:05,663: [Evaluate] epoch:3/3, step: 3000/3159, val_acc:0.72936
+INFO -> 2025-12-08 00:13:06,108: [Train] epoch:3/3, step: 3000/3159, step_loss:0.2663
+INFO -> 2025-12-08 00:14:13,433: [Evaluate] epoch:3/3, step: 3050/3159, val_acc:0.72821
+INFO -> 2025-12-08 00:14:13,913: [Train] epoch:3/3, step: 3050/3159, step_loss:0.4255
+INFO -> 2025-12-08 00:15:28,564: [Evaluate] epoch:3/3, step: 3100/3159, val_acc:0.72592
+INFO -> 2025-12-08 00:15:30,540: [Train] epoch:3/3, step: 3100/3159, step_loss:0.4252
+INFO -> 2025-12-08 00:16:51,985: [Evaluate] epoch:3/3, step: 3150/3159, val_acc:0.72936
+INFO -> 2025-12-08 00:16:53,350: [Train] epoch:3/3, step: 3150/3159, step_loss:0.4609
+INFO -> 2025-12-08 00:17:14,669: [Evaluate] epoch:3/3, step: 3158/3159, val_acc:0.72936
+INFO -> 2025-12-08 08:11:09,559: [Epoch 3] train_epoch_loss = 0.0062,  ---- val_acc = 0.7294,  [1435.8s]
+INFO -> 2025-12-08 08:11:09,560: -- Training done in 32820s.
+INFO -> 2025-12-08 08:11:17,519: ✅ Final Dev Accuracy: 0.7500

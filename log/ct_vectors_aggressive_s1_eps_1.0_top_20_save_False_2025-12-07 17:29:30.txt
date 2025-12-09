@@ -1,0 +1,19 @@
+INFO -> 2025-12-07 17:29:30,080: sst2, args: Namespace(log_path='./log', dataset='sst2', save_path='./trained_model', model_type='bert-base-uncased', epochs=3, num_labels=2, lr=2e-05, max_len=128, batch_size=64, use_cuda=True, num_workers=32, seed=42, log_steps=50, eval_steps=50, eps=1.0, top_k=20, embedding_type='ct_vectors', mapping_strategy='aggressive', privatization_strategy='s1', save_stop_words=False)
+INFO -> 2025-12-07 17:32:07,510: train_data:67349, dev_data:872
+INFO -> 2025-12-07 17:32:13,506: Init_val_acc: 0.526376
+INFO -> 2025-12-07 17:32:13,506: Training model for 3 epochs..
+INFO -> 2025-12-07 17:32:13,818: [Train] epoch:1/3, step: 0/3159, step_loss:0.6941
+INFO -> 2025-12-07 17:32:53,451: [Evaluate] epoch:1/3, step: 50/3159, val_acc:0.71789
+INFO -> 2025-12-07 17:32:53,819: [Evaluate] best accuracy performance has been updated: 0.52638 -> 0.71789
+INFO -> 2025-12-07 17:32:54,334: [Train] epoch:1/3, step: 50/3159, step_loss:0.5885
+INFO -> 2025-12-07 17:33:53,432: [Evaluate] epoch:1/3, step: 100/3159, val_acc:0.76261
+INFO -> 2025-12-07 17:33:53,789: [Evaluate] best accuracy performance has been updated: 0.71789 -> 0.76261
+INFO -> 2025-12-07 17:33:54,332: [Train] epoch:1/3, step: 100/3159, step_loss:0.4905
+INFO -> 2025-12-07 17:34:51,290: [Evaluate] epoch:1/3, step: 150/3159, val_acc:0.76835
+INFO -> 2025-12-07 17:34:51,649: [Evaluate] best accuracy performance has been updated: 0.76261 -> 0.76835
+INFO -> 2025-12-07 17:34:52,059: [Train] epoch:1/3, step: 150/3159, step_loss:0.5009
+INFO -> 2025-12-07 17:35:57,983: [Evaluate] epoch:1/3, step: 200/3159, val_acc:0.77982
+INFO -> 2025-12-07 17:35:58,387: [Evaluate] best accuracy performance has been updated: 0.76835 -> 0.77982
+INFO -> 2025-12-07 17:35:58,787: [Train] epoch:1/3, step: 200/3159, step_loss:0.4342
+INFO -> 2025-12-07 17:37:09,183: [Evaluate] epoch:1/3, step: 250/3159, val_acc:0.76261
+INFO -> 2025-12-07 17:37:09,775: [Train] epoch:1/3, step: 250/3159, step_loss:0.5987
