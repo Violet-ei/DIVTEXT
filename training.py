@@ -84,7 +84,7 @@ class Trainer:
                 
                 global_step += 1
     
-                # Evaluate on validation set
+                # 在 dev 集上评估
                 if val_loader is not None and self.eval_steps > 0 and global_step != 0 and \
                     (global_step % self.eval_steps == 0 or global_step == (num_training_steps - 1)):
                     val_acc= self.evaluate(val_loader)

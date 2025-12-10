@@ -20,7 +20,7 @@ def get_parser():
     parser.add_argument("--log_steps",type=int,default=50) 
     parser.add_argument("--eval_steps",type=int,default=50)
 
-    # ---CusText params---
+    # ---privacy params---
     parser.add_argument("--eps", type=float, default=1.0)
     parser.add_argument("--top_k", type=int, default=20)
     parser.add_argument("--embedding_type", type=str, default="ct_vectors")
